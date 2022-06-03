@@ -1,24 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>net6.0</TargetFramework>
-        <LangVersion>latest</LangVersion>
-        <Nullable>enable</Nullable>
-        <PackAsTool>true</PackAsTool>
-        <ToolCommandName>dcmfind</ToolCommandName>
-        <Version>1.7.0</Version>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <RepositoryUrl>https://github.com/amoerie/dcmfind</RepositoryUrl>
-        <Authors>Alexander Moerman</Authors>
-        <Title>DICOM Find</Title>
-        <PackageProjectUrl>https://github.com/amoerie/dcmfind</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/amoerie/dcmfind</RepositoryUrl>
-        <RepositoryType>GIT</RepositoryType>
-        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="CommandLineParser" Version="2.9.1" />
-        <PackageReference Include="fo-dicom" Version="5.0.3" />
-        <PackageReference Include="Jint" Version="2.11.58" />
-    </ItemGroup>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dcmtransform</ToolCommandName>
+    <Version>0.1.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/amoerie/dcmtransform</RepositoryUrl>
+    <Authors>Alexander Moerman</Authors>
+    <Title>DICOM Transform</Title>
+    <PackageProjectUrl>https://github.com/amoerie/dcmtransform</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/amoerie/dcmtransform</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="fo-dicom" Version="5.0.3" />
+    <PackageReference Include="Jint" Version="2.11.58" />
+  </ItemGroup>
 </Project>
