@@ -5,7 +5,7 @@ if(-not $nugetUrl) {
     $nugetUrl = "https://api.nuget.org/v3/index.json";
 }
 
-$projectName = "DcmFind"
+$projectName = "DcmTransform"
 $projectPath = Resolve-Path (Join-Path $PSScriptRoot "./$projectName/")
 $csProjPath = Resolve-Path (Join-Path $projectPath "$projectName.csproj")
 
